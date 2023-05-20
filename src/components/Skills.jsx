@@ -55,7 +55,7 @@ const technologies = [
   return (
     <div name='skills' className="h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white">
 
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center pt-48
+        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center pt-20
         w-full h-full text-white">
             <div>
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">Skills</p>
