@@ -29,7 +29,7 @@ const NavBar = () => {
   ]
   return (
     <div class="flex justify-between items-center w-full
-     h-20 text-white fixed bg-black px-5">
+     h-20 text-white fixed bg-black px-5 z-10">
         <div>
             <h1 className="text-5xl font-signature ml-2">m4tiss</h1>
         </div>
@@ -47,7 +47,7 @@ const NavBar = () => {
 
 
         <div onClick={()=>setNav(!nav)} 
-        className="md:hidden cursor-pointer pr-4 z-10 text-gray-500">
+        className="md:hidden cursor-pointer pr-4 z-20 text-gray-500">
           {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
         </div>
 
